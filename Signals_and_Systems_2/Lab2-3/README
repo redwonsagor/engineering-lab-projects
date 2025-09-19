@@ -1,0 +1,17 @@
+# Lab 2–3: DFT & Signal Analysis
+
+## What’s here
+- `Lab_DFT.pdf`: write-up/brief.
+- `myDFT.m`: custom Discrete Fourier Transform.
+- `compareDFT.m`: compares `myDFT` with `fft`.
+- `problem2_rectangular_signal*.m`: rectangular signal generation & spectral analysis.
+- `problem3_dualtones.m`, `generate_dualtones.m`: dual-tone generation/analysis.
+- `touchtone1.wav`: test audio (tone pair).
+
+## Highlights
+- Verified numerical equivalence and differences between DFT and FFT.
+- Observed spectral leakage/windowing effects on rectangular signals.
+- Generated dual tones (DTMF-like) and inspected frequency components.
+
+## Run
+Open in MATLAB/Octave and run `compareDFT.m` or individual `problem*.m`.
