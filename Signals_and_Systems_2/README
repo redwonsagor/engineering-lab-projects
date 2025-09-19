@@ -1,0 +1,29 @@
+# Signals & Systems 2 – Labs
+
+This folder contains labs focused on DFT/FFT analysis and echo filtering for audio signals.
+
+## Labs
+- **Lab 2–3: DFT & Signal Analysis**
+  - Implemented a custom DFT (`myDFT.m`) and compared with MATLAB’s FFT (`compareDFT.m`).
+  - Analyzed rectangular signals and generated/analyzed dual tones (DTMF-like).
+  - Files: `Lab_DFT.pdf`, `myDFT.m`, `compareDFT.m`, `problem2_rectangular_signal*.m`,
+    `problem3_dualtones.m`, `generate_dualtones.m`, `touchtone1.wav`.
+
+- **Lab 4: Echo Filters (FIR/IIR)**
+  - Implemented single-echo and multi-echo filters for speech.
+  - Compared FIR vs. IIR behavior, effect of delay and attenuation (alpha).
+  - Files: `Task 1/` (single echo), `Task 2/` (multiple echoes), including `memphis.wav`
+    and processed echo examples.
+
+## Skills Demonstrated
+- DFT/FFT implementation & validation
+- Audio signal generation and analysis (tones, rectangular signals)
+- FIR/IIR filter design for echo effects; parameter studies (delay/alpha)
+- MATLAB scripting and reproducible experiments
+
+## How to Run
+- Open `.m` files in MATLAB or Octave.
+- For Lab 2–3: run `compareDFT.m`, `problem2_rectangular_signal.m`, `problem3_dualtones.m`.
+- For Lab 4:
+  - Task 1: `problem1_single_echo.m` (uses `single_echo_filter.m`)
+  - Task 2: `problem2_multiple_echo.m` (uses `multiple_echo_filter_fir.m`, `multiple_echo_filter_iir.m`)
