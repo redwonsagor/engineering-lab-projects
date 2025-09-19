@@ -1,0 +1,55 @@
+# Electronics 2 Labs
+
+This folder contains lab reports and tasks from the **Electronics 2** course at HAW Hamburg.  
+The labs emphasize **analog and mixed-signal electronics**, focusing on MOSFETs, differential amplifiers, op-amps, and converters, with both simulations and real measurements.
+
+---
+
+## 🔹 Labs Included
+1. **Lab 1 – MOSFET Characteristics**
+   - Measured and analyzed MOSFET behavior (cutoff, ohmic, saturation).
+   - Simulated circuits in **LTSpice** and compared theoretical vs. experimental results.
+   - Practiced setting up oscilloscopes, multimeters, and probes.
+
+2. **Lab 2 – MOSFET Applications**
+   - Implemented MOSFETs as **switches, current mirrors, and amplifiers**.
+   - Measured **power dissipation, switching efficiency, and gain**.
+   - Used oscilloscope math channels for waveform analysis.
+
+3. **Lab 3 – Differential Amplifier**
+   - Designed a **temperature measurement circuit** using a Pt100 sensor with a Wheatstone bridge.
+   - Implemented a differential amplifier to match ADC input requirements.
+   - Analyzed **noise, common-mode rejection, and calibration** effects.
+
+4. **Lab 4 – Operational Amplifier**
+   - Designed an amplifier for **high-frequency CB radio signals**.
+   - Considered **frequency limitations (slew rate, FFT analysis)**.
+   - Compared simulation vs. measurement results and identified circuit cut-off frequencies.
+
+5. **Lab 5 – Digital-to-Analog & Analog-to-Digital Converter**
+   - Implemented an **R-2R DAC** and extended it into an **ADC**.
+   - Studied quantization errors, glitches, and resistor tolerance effects.
+   - Converted real sensor voltages into digital words and validated ADC output.
+
+---
+
+##  Tools & Methods
+- **Simulation & Design**: LTSpice, MATLAB
+- **Hardware**: Breadboard setups, Op-Amps (UA741, TL072), Pt100 sensor, resistors
+- **Measurement**: Oscilloscope, Multimeter, Frequency Generator, Power Supply
+- **Concepts Applied**: MOSFETs, Differential Amplifiers, Op-Amps, DAC/ADC, FFT
+
+---
+
+##  Skills Demonstrated
+- Measurement setup & calibration  
+- Circuit design, simulation, and troubleshooting  
+- Analog-to-digital and digital-to-analog conversion  
+- High-frequency signal analysis  
+- Practical application of electronic components in real-world scenarios  
+
+---
+
+ Each lab subfolder contains:
+- **Task PDF** (requirements/instructions)  
+- **Report PDF** (solutions, results, measurements)  
