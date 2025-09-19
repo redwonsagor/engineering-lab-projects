@@ -1,0 +1,44 @@
+# Digital Circuits Labs
+
+This folder contains lab reports and tasks from the **Digital Circuits** course at HAW Hamburg.  
+The labs focus on the design, simulation, and implementation of digital logic circuits, with practical verification using FPGA boards.
+
+---
+
+## 🔹 Labs Included
+1. **Smart Home Logic Controller**
+   - Designed a room controller for lighting and blinds with four modes: *Standard, Lunchtime, Nighttime, Emergency*.
+   - Implemented logic with **truth tables, Boolean equations, and NAND-only circuits**.
+   - Simulated designs using *Digital* software and exported to **VHDL**.
+   - Implemented on **FPGA (Vivado)** and tested with switches and LEDs.
+   - Measured **propagation delays** using an oscilloscope.
+
+2. **Adder and Counter**
+   - Implemented an **8-bit combinational adder** and extended it to a **registered adder** with synchronous reset and enable.
+   - Designed an **accumulator** with feedback connections.
+   - Implemented **counters** with external and internal feedback.
+   - Verified timing and propagation delays using FPGA boards and oscilloscopes.
+   - Compared performance between feedback methods.
+
+---
+
+##  Tools & Methods
+- **Simulation & Design**: Digital Software, EDA Playground, Vivado (Xilinx)
+- **Hardware**: FPGA board, IOM boards, SSI ICs (7400 NAND gates)
+- **Measurement**: Oscilloscope, Function Generator
+- **Languages**: VHDL
+
+---
+
+##  Skills Demonstrated
+- Digital logic design & verification  
+- FPGA implementation & synthesis (Vivado)  
+- Timing analysis & propagation delay measurement  
+- Boolean logic optimization (NAND-only circuits)  
+- Practical debugging and circuit validation  
+
+---
+
+ Each lab subfolder contains:
+- **Task PDF** (requirements/instructions)  
+- **Report PDF** (solutions, results, measurements)  
