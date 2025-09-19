@@ -1,0 +1,21 @@
+# Lab 4: Echo Filters (FIR vs IIR)
+
+## Structure
+- **Task 1/** Single-echo:
+  - `problem1_single_echo.m`, `single_echo_filter.m`
+  - `memphis.wav` + pre-rendered echo files (alpha 0.3/0.5/0.7; 50–200 ms).
+- **Task 2/** Multiple-echo:
+  - `problem2_multiple_echo.m`
+  - `multiple_echo_filter_fir.m`, `multiple_echo_filter_iir.m`
+  - `memphis.wav`
+
+## What you did
+- Implemented single and multiple echo systems.
+- Compared FIR vs. IIR echo filters (stability, decay, computational cost).
+- Studied impact of delay (ms) and attenuation (alpha) on perceived echo.
+
+## Run
+- Task 1: run `problem1_single_echo.m`.
+- Task 2: run `problem2_multiple_echo.m`.
+
+> Tip: Use `soundsc(...)` to listen, and `audiowrite(...)` to export results.
