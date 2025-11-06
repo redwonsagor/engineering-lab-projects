@@ -22,7 +22,7 @@ This folder contains labs focused on DFT/FFT analysis and echo filtering for aud
 - MATLAB scripting and reproducible experiments
 
 ## How to Run
-- Open `.m` files in MATLAB or Octave.
+- Open `.m` files in MATLAB.
 - For Lab 2–3: run `compareDFT.m`, `problem2_rectangular_signal.m`, `problem3_dualtones.m`.
 - For Lab 4:
   - Task 1: `problem1_single_echo.m` (uses `single_echo_filter.m`)
